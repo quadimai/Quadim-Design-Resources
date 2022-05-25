@@ -47,12 +47,12 @@ General typography such as sizes, weights etc follows Bulma, but if you’re not
 | Size | Font-size | Bulma class |
 |------|-----------|-------------|
 | 1    | 3rem      | is-size-1   |
-| 2    | 3rem      | is-size-2   |
-| 3    | 3rem      | is-size-3   |
-| 4    | 3rem      | is-size-4   |
-| 5    | 3rem      | is-size-5   |
-| 6    | 3rem      | is-size-6   |
-| 7    | 3rem      | is-size-7   |
+| 2    | 2.5rem    | is-size-2   |
+| 3    | 2rem      | is-size-3   |
+| 4    | 1.5rem    | is-size-4   |
+| 5    | 1.25rem   | is-size-5   |
+| 6    | 1rem      | is-size-6   |
+| 7    | 0.75rem   | is-size-7   |
 
 ## Spacing
 
