@@ -16,7 +16,7 @@ This palette is a **work in progress**, changed are expected, make sure to keep 
 | ![Purple](https://place-hold.it/24x24/6E44FF?text=+)   | Orange   | #6E44FF | 110, 68, 255  | 253, 100%, 63% | is-purple                     | $color--purple   |
 | ![Cinnamon](https://place-hold.it/24x24/C65B7C?text=+) | Cinnamon | #C65B7C | 198, 91, 124  | 341, 48%, 57%  | is-cinnamon                   | $color--cinnamon |
 | ![Rose](https://place-hold.it/24x24/F14668?text=+)     | Rose     | #F14668 | 241, 70, 104  | 348, 86%, 61%  | is-rose, is-danger            | $color--cinnamon |
-| ![Granite](https://place-hold.it/24x24/525252?text=+)  | Granite  | #525252 | 82, 82, 82    | 0, 0%, 32%     | is-granite                    | $color--granite  |
+| ![Granite](https://place-hold.it/24x24/525252?text=+)  | Granite  | #525252 | 82, 82, 82    | 0, 0%, 32%     | is-granite, is-dark           | $color--granite  |
 | ![Basalt](https://place-hold.it/24x24/636373?text=+)   | Basalt   | #636373 | 99, 99, 115   | 240, 7%, 42%   | is-basalt                     | $color--basalt   |
 | ![Bone](https://place-hold.it/24x24/DBE0E9?text=+)     | Bone     | #DBE0E9 | 219, 224, 233 | 220, 23%, 89%  | is-bone                       | $color--bone     |
 | ![Silver](https://place-hold.it/24x24/E0E0E0?text=+)   | Silver   | #E0E0E0 | 224, 224, 224 | 0, 0%, 88%     | is-silver                     | $color--silver   |
