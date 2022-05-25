@@ -1,0 +1,11 @@
+#4280F8 Blue
+#4B84AA Steel
+#07BB7E Green
+#DF9153 Orange
+#6E44FF Purple
+#C65B7C Cinnamon
+#F14668 Rose
+#525252 Granite
+#636373 Basalt
+#DBE0E9 Bone
+#E0E0E0 Silver

@@ -1,0 +1,16 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>quadim.html</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+div#colors div{float: left; width: 64px; height: 64px; margin: 2px; text-align: center; font-size: 12px; font-family: Arial, Helvetica, sans-serif}
+div#colors div span{font-weight: bold; cursor: pointer}
+div#colors div span:hover{text-decoration: underline}
+html{}
+input{margin-left: 1em;}
+</style></head>
+<body>
+<div id="colors">
+<div style="background-color:rgb(66, 128, 248); color:rgb(0, 0, 0)">Blue:<br/><span>#4280F8</span></div><div style="background-color:rgb(75, 132, 170); color:rgb(0, 0, 0)">Steel:<br/><span>#4B84AA</span></div><div style="background-color:rgb(7, 187, 126); color:rgb(0, 0, 0)">Green:<br/><span>#07BB7E</span></div><div style="background-color:rgb(223, 145, 83); color:rgb(0, 0, 0)">Orange:<br/><span>#DF9153</span></div><div style="background-color:rgb(110, 68, 255); color:rgb(255, 255, 255)">Purple:<br/><span>#6E44FF</span></div><div style="background-color:rgb(198, 91, 124); color:rgb(0, 0, 0)">Cinnamon:<br/><span>#C65B7C</span></div><div style="background-color:rgb(241, 70, 104); color:rgb(0, 0, 0)">Rose:<br/><span>#F14668</span></div><div style="background-color:rgb(82, 82, 82); color:rgb(255, 255, 255)">Granite:<br/><span>#525252</span></div><div style="background-color:rgb(99, 99, 115); color:rgb(255, 255, 255)">Basalt:<br/><span>#636373</span></div><div style="background-color:rgb(219, 224, 233); color:rgb(0, 0, 0)">Bone:<br/><span>#DBE0E9</span></div><div style="background-color:rgb(224, 224, 224); color:rgb(0, 0, 0)">Silver:<br/><span>#E0E0E0</span></div></div>
+<script>
+function selectText(element){ if (document.selection){ var range = document.body.createTextRange(); range.moveToElementText(element); range.select(); }else if (window.getSelection){ var range = document.createRange(); range.selectNode(element); window.getSelection().addRange(range); } }
+document.getElementById('colors').addEventListener('click', function(event){ if (event.target.tagName.toLowerCase() == 'span'){ event.preventDefault(); selectText(event.target); document.execCommand('copy'); }});
+</script></body></html>
