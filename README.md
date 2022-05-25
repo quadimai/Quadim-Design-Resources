@@ -35,14 +35,14 @@ This palette is a **work in progress**, changed are expected, make sure to keep 
 
 General typography such as sizes, weights etc follows Bulma, but if you’re not using a framework, see below
 
+- Root (html/body) font size: `16px`
+
 ### Font
 
 - Main font family: [Noto Sans](https://fonts.google.com/noto)
 - Fallback font: [Roboto](https://fonts.google.com/specimen/Roboto)
 
 ### Sizes
-
-Root font size: `16px`
 
 | Size | Font-size | Bulma class |
 |------|-----------|-------------|
