@@ -2,8 +2,8 @@
   "blue": {
    "hex": "#4280F8",
    "name": "Blue",
-   "rgb": "rgb(66, 128, 248)",
-   "hsl": "hsl(220, 93%, 62%)",
+   "rgb": [66, 128, 248],
+   "hsl": [220, "93%", "62%"],
    "var": "$color--blue",
    "bulma": ["is-blue", "is-primary", "is-brand" ],
    "score": {
@@ -14,7 +14,7 @@
   "steel": {
    "hex": "#4B84AA",
    "name": "Steel",
-   "rgb": "rgb(75, 132, 170)",
+   "rgb": [75, 132, 170],
    "hsl": "hsl(204, 39%, 48%)",
    "var": "$color--steel",
    "bulma": ["is-steel"],
@@ -23,8 +23,8 @@
   "green": {
    "hex": "#07BB7E",
    "name": "Green",
-   "rgb": "rgb(7, 187, 126)",
-   "hsl": "hsl(160, 93%, 38%)",
+   "rgb": [7, 187, 126],
+   "hsl": [160, "93%", "38%"],
    "var": "$color--green",
    "bulma": ["is-green", "is-success"],
    "score": {
@@ -34,9 +34,9 @@
   },
   "orange": {
     "hex": "#DF9153",
-    "rgb": "rgb(223, 145, 83)",
+    "rgb": [223, 145, 83],
     "name": "Orange",
-    "hsl": "hsl(27, 69%, 60%)",
+    "hsl": [27, "69%", "60%"],
     "var": "$color--orange",
     "bulma": ["is-orange", "is-warning"],
     "score": {
@@ -46,9 +46,9 @@
   },
   "purple": {
     "hex": "#8C72E5",
-    "rgb": "rgb(140, 114, 229)",
+    "rgb": [140, 114, 229],
     "name": "Purple",
-    "hsl": "hsl(254, 69%, 67%)",
+    "hsl": [254, "69%", "67%"],
     "var": "$color--purple",
     "bulma": ["is-purple"],
     "score": {
@@ -59,8 +59,8 @@
   "cinnamon": {
     "hex": "#C65B7C",
     "name": "Cinnamon",
-    "rgb": "rgb(198, 91, 124)",
-    "hsl": "hsl(341, 48%, 57%)",
+    "rgb": [198, 91, 124],
+    "hsl": [341, "48%", "57%"],
     "var": "$color--cinnamon",
     "bulma": ["is-cinnamon"],
     "score": {}
@@ -68,52 +68,52 @@
   "rose": {
     "hex": "#F14668",
     "name": "Rose",
-    "rgb": "rgb(241, 70, 104)",
-    "hsl": "hsl(348, 86%, 61%)",
+    "rgb": [241, 70, 104],
+    "hsl": [348, "86%", "61%"],
     "var": "$color--rose",
     "bulma": ["is-rose", "is-danger"],
     "score": {}
   },
   "granite":  {
     "hex": "#525252",
-    "rgb": "rgb(82, 82, 82)",
+    "rgb": [82, 82, 82],
     "name": "Granite",
-    "hsl": "hsl(0, 0%, 32%)",
+    "hsl": [0, "0%", "32%"],
     "var": "$color--granite",
     "bulma": ["is-granite", "is-dark"],
     "score": {}
   },
   "basalt": {
     "hex": "#636373",
-    "rgb": "rgb(99, 99, 115)",
+    "rgb": [99, 99, 115],
     "name": "Basalt",
-    "hsl": "hsl(240, 7%, 42%)",
+    "hsl": [240, "7%", "42%"],
     "var": "$color--basalt",
     "bulma": ["is-basalt"],
     "score": {}
   },
   "bone": {
     "hex": "#DBE0E9",
-    "rgb": "rgb(219, 224, 233)",
+    "rgb": [219, 224, 233],
     "name": "Bone",
-    "hsl": "hsl(0, 0%, 88%)",
+    "hsl": [0, "0%", "88%"],
     "var": "$color--bone",
     "bulma": ["is-bone"],
     "score": {}
   },
   "silver": {
     "hex": "#E0E0E0",
-    "rgb": "rgb(224, 224, 224)",
+    "rgb": [224, 224, 224],
     "name": "Silver",
-    "hsl": "hsl(0, 0%, 88%)",
+    "hsl": [0, "0%", "88%"],
     "var": "$color--silver",
     "bulma": ["is-silver"],
     "score": {}
   },
   "magenta":  {
     "hex": "#C65B7C",
-    "rgb": "rgb(198, 91, 124)",
-    "hsl": "hsl(341, 48%, 57%)",
+    "rgb": [198, 91, 124],
+    "hsl": [341, "48%", "57%"],
     "name": "Magenta",
     "var": "$color--magenta",
     "bulma": ["is-magenta"],
@@ -124,9 +124,9 @@
   },
   "yellow": {
     "hex": "#FFC857",
-    "rgb": "rgb(255, 200, 87)",
+    "rgb": [255, 200, 87],
     "name": "Yellow",
-    "hsl": "hsl(40, 100%, 67%)",
+    "hsl": [40, "100%", "67%"],
     "var": "$color--yellow",
     "bulma": ["is-yellow"],
     "score": {
@@ -136,9 +136,9 @@
   },
   "cyan": {
     "hex": "#54DEFD",
-    "rgb": "rgb(84, 222, 253)",
+    "rgb": [84, 222, 253],
     "name": "Cyan",
-    "hsl": "hsl(191, 98%, 66%)",
+    "hsl": [191, "98%", "66%"],
     "var": "$color--cyan",
     "bulma": ["is-cyan"],
     "score": {}
