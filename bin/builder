@@ -17,9 +17,14 @@ Handlebars.registerHelper("join", (context, options) => {
   return _.join(context, ", ");
 });
 
+Handlebars.registerHelper("tjoin", (context, options) => {
+  return _.join(context, "\t");
+});
+
 const templates = {
   txt: "templates/txt.hbs",
-  html: "templates/html.hbs"
+  html: "templates/html.hbs",
+  gpl: "templates/gpl.hbs"
 }
 
 program
