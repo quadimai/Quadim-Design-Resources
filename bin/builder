@@ -24,7 +24,8 @@ Handlebars.registerHelper("tjoin", (context, options) => {
 const templates = {
   txt: "templates/txt.hbs",
   html: "templates/html.hbs",
-  gpl: "templates/gpl.hbs"
+  gpl: "templates/gpl.hbs",
+  css: "templates/css.hbs"
 }
 
 program
