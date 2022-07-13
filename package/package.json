@@ -1,0 +1,29 @@
+{
+  "name": "@quadimai/colors",
+  "version": "1.0.0",
+  "description": "Color package to be imported in webapp",
+  "author": "Roosta <mail@roosta.sh>",
+  "homepage": "https://github.com/quadimai/Quadim-Design-Resources#readme",
+  "license": "ISC",
+  "main": "lib/colors.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quadimai/Quadim-Design-Resources.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/quadimai/Quadim-Design-Resources/issues"
+  }
+}

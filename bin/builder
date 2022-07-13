@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+"use strict";
+
+const fs = require("fs");
+const Handlebars = require("handlebars");
+const palette = require("../palette.json");
+const template = fs.readFileSync("templates/txt.hbs", "utf8");
+const comp = Handlebars.compile(template);
+console.log(comp(palette));
+// console.log(template)

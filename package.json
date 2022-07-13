@@ -1,0 +1,21 @@
+{
+  "name": "root",
+  "version": "1.0.0",
+  "description": "Build readme, prep package",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quadimai/Quadim-Design-Resources.git"
+  },
+  "author": "Roosta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quadimai/Quadim-Design-Resources/issues"
+  },
+  "homepage": "https://github.com/quadimai/Quadim-Design-Resources#readme",
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  }
+}
