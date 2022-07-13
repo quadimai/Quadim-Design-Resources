@@ -15,7 +15,7 @@
    "hex": "#4B84AA",
    "name": "Steel",
    "rgb": [75, 132, 170],
-   "hsl": "hsl(204, 39%, 48%)",
+   "hsl": [204, "39%", "48%"],
    "var": "$color--steel",
    "bulma": ["is-steel"],
    "score": {}
