@@ -9,12 +9,17 @@ const pkg = require("../package.json");
 // const template = fs.readFileSync("templates/txt.hbs", "utf8");
 // const comp = Handlebars.compile(template);
 const program = require("commander");
-
+const _ = require('lodash');
 // console.log(comp(palette));
 // console.log(template)
 
+Handlebars.registerHelper("join", (context, options) => {
+  return _.join(context, ", ");
+});
+
 const templates = {
-  txt: "templates/txt.hbs"
+  txt: "templates/txt.hbs",
+  html: "templates/html.hbs"
 }
 
 program
