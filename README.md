@@ -5,7 +5,7 @@ Collection of useful design resources and assets for use in the Quadim
 ecosystem.
 
 **IMPORTANT**: This readme along with exports are generated via
-[builder](bin/builder), do not edit direction, instead use
+[builder](bin/builder), do not edit directly, instead use
 [template](templates/README.hbs)
 
 ## Building
@@ -14,6 +14,11 @@ This project is generated from the [palette.json](palette.json) file, and a [Mak
 Update pre-requesits like palette or template, and then call `make`.
 
 To generate a single file, touch & call `make exports/quadim.css`
+
+## Package
+
+I plan to setup a github package for this, ETA unknown, only work on this when I got downtime
+
 
 ## Palette
 
