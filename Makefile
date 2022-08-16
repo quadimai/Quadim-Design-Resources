@@ -1,5 +1,13 @@
 .phony: default install list
 
+EXPORTS = \
+	exports/quadim.css \
+	exports/quadim.gpl \
+	exports/quadim.html \
+	exports/quadim.txt \
+	README.md
+
+
 default: \
 	exports/quadim.txt \
 	exports/quadim.html \
@@ -27,3 +35,7 @@ exports/quadim.gpl: templates/gpl.hbs palette.json
 
 exports/quadim.css: templates/css.hbs palette.json
 	@bin/builder -o css > $@
+
+package: $(EXPORTS) palette.json
+	@cp -f palette.json package/lib/palette.json
+

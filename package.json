@@ -2,6 +2,7 @@
   "name": "root",
   "version": "1.0.0",
   "description": "Build readme, prep package",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
