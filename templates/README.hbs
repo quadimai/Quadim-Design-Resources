@@ -17,12 +17,15 @@ To generate a single file, touch & call `make exports/quadim.css`
 
 ## Package
 
-Package is available at:
+The colors object is exposed in package:
+
 ```
 "@quadimai/colors": "1.0.0",
 ```
 
 To build a new version you need an access token, @roosta for credentials
+
+To use you'd `import colors from "@quadimai/colors"`, then `colors.blue.hex` for example.
 
 ## Palette
 

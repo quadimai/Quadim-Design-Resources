@@ -4,7 +4,7 @@ Design resources and assets
 Collection of useful design resources and assets for use in the Quadim
 ecosystem.
 
-**IMPORTANT**: This readme along with exports are generated via
+***IMPORTANT***: This readme along with exports are generated via
 [builder](bin/builder), do not edit directly, instead use
 [template](templates/README.hbs)
 
@@ -17,8 +17,12 @@ To generate a single file, touch & call `make exports/quadim.css`
 
 ## Package
 
-I plan to setup a github package for this, ETA unknown, only work on this when I got downtime
+Package is available at:
+```
+"@quadimai/colors": "1.0.0",
+```
 
+To build a new version you need an access token, @roosta for credentials
 
 ## Palette
 
