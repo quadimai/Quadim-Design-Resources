@@ -4,7 +4,8 @@ default: \
 	exports/quadim.txt \
 	exports/quadim.html \
 	exports/quadim.gpl \
-	exports/quadim.css
+	exports/quadim.cs \
+	README.md
 
 install:
 	npm install
@@ -13,7 +14,7 @@ list:
 	@bin/builder --list
 
 README.md: templates/README.hbs palette.json
-	@bin/builder -o md README.md
+	@bin/builder -o md > $@
 
 exports/quadim.txt: templates/txt.hbs palette.json
 	@bin/builder -o txt > $@

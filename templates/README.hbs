@@ -1,7 +1,19 @@
 Design resources and assets
 ===========================
 
-Collection of useful design resources and assets for use in the Quadim ecosystem.
+Collection of useful design resources and assets for use in the Quadim
+ecosystem.
+
+**IMPORTANT**: This readme along with exports are generated via
+[builder](bin/builder), do not edit direction, instead use
+[template](templates/README.hbs)
+
+## Building
+
+This project is generated from the [palette.json](palette.json) file, and a [Makefile](Makefile).
+Update pre-requesits like palette or template, and then call `make`.
+
+To generate a single file, touch & call `make exports/quadim.css`
 
 ## Palette
 
@@ -15,13 +27,10 @@ This palette is a **work in progress**, changed are expected, make sure to keep 
 
 ### Exports
 
-- [Gpick (gpa)](palette/quadim.gpa)
-- [GIMP/Inkscape (gpl)](palette/quadim.gpl)
-- [Alias/WaveFront Material (mtl)](palette/quadim.mtl)
-- [Adobe Swatch Exchange (ase)](palette/quadim.mtl)
-- [CSS](palette/quadim.css)
-- [HTML](palette/quadim.html)
-- [Text file](palette/quadim.txt)
+- [GIMP/Inkscape (gpl)](exports/quadim.gpl)
+- [CSS](exports/quadim.css)
+- [HTML](exports/quadim.html)
+- [Text file](exports/quadim.txt)
 
 ## Typography
 

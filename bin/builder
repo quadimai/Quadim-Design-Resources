@@ -30,15 +30,6 @@ Handlebars.registerHelper("getLabel", (context, options) => {
 });
 
 
-Handlebars.registerHelper("eachObj", (context, options) => {
-  const values = Object.values();
-  let ret = "";
-  for (let i = 0, j = values.length; i < j; i++) {
-    ret = ret + options.fn(values[i]);
-  }
-  return ret;
-});
-
 const templates = {
   txt:  "templates/txt.hbs",
   html: "templates/html.hbs",
