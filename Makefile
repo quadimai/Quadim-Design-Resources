@@ -4,7 +4,7 @@ default: \
 	exports/quadim.txt \
 	exports/quadim.html \
 	exports/quadim.gpl \
-	exports/quadim.cs \
+	exports/quadim.css \
 	README.md
 
 install:
