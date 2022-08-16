@@ -39,9 +39,9 @@ This palette is a **work in progress**, changed are expected, make sure to keep 
 ### Exports
 
 - [GIMP/Inkscape (gpl)](exports/quadim.gpl)
-- [CSS](palette/quadim.css)
-- [HTML](palette/quadim.html)
-- [Text file](palette/quadim.txt)
+- [CSS](exports/quadim.css)
+- [HTML](exports/quadim.html)
+- [Text file](exports/quadim.txt)
 
 ## Typography
 
