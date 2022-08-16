@@ -1,0 +1,77 @@
+Design resources and assets
+===========================
+
+Collection of useful design resources and assets for use in the Quadim ecosystem.
+
+## Palette
+
+This palette is a **work in progress**, changed are expected, make sure to keep repo up to date
+
+| Img                                                                  | Name             | Hex             | RGB                  | HSL                  | Bulma/Buefy           | CSS              | Score                     |
+|----------------------------------------------------------------------|------------------|-----------------|----------------------|----------------------|-----------------------|------------------|---------------------------|
+{{#each this}}
+| ![{{ this.name }}](https://place-hold.it/24x24/{{ hextrim this.hex }}?text=+)   | {{ this.name }}  | {{ this.hex }}  | {{ join this.rgb }}  | {{ join this.hsl }}  | {{join this.bulma }}  | {{ this.var }}   | {{ getLabel this.score }} |
+{{/each}}
+
+### Exports
+
+- [Gpick (gpa)](palette/quadim.gpa)
+- [GIMP/Inkscape (gpl)](palette/quadim.gpl)
+- [Alias/WaveFront Material (mtl)](palette/quadim.mtl)
+- [Adobe Swatch Exchange (ase)](palette/quadim.mtl)
+- [CSS](palette/quadim.css)
+- [HTML](palette/quadim.html)
+- [Text file](palette/quadim.txt)
+
+## Typography
+
+General typography such as sizes, weights etc follows Bulma, but if you’re not using a framework, see below
+
+- Root (html/body) font size: `16px`
+
+### Font
+
+- Main font family: [Noto Sans](https://fonts.google.com/noto)
+- Fallback font: [Roboto](https://fonts.google.com/specimen/Roboto)
+
+### Sizes
+
+| Size | Font-size | Bulma class |
+|------|-----------|-------------|
+| 1    | 3rem      | is-size-1   |
+| 2    | 2.5rem    | is-size-2   |
+| 3    | 2rem      | is-size-3   |
+| 4    | 1.5rem    | is-size-4   |
+| 5    | 1.25rem   | is-size-5   |
+| 6    | 1rem      | is-size-6   |
+| 7    | 0.75rem   | is-size-7   |
+
+## Spacing
+
+- [Spacing helpers | Bulma: Free, open source, and modern CSS framework based on Flexbox](https://bulma.io/documentation/helpers/spacing-helpers/)
+
+We'll try to be consistent with spacing, refer to this table for sizes. In Bulma you can use these by adding `m-2`, which will set margin to 2. You can also set a direction like this: `mr-2`, this will set right margin. Same applies to padding.
+
+| Suffix | Value   |
+|--------|---------|
+| *-0    | 0       |
+| *-1    | 0.25rem |
+| *-2    | 0.5rem  |
+| *-3    | 0.75rem |
+| *-4    | 1rem    |
+| *-5    | 1.5rem  |
+| *-6    | 3rem    |
+
+## Assets
+
+![logo.svg](assets/logo.svg)
+<hr></hr>
+
+![omega.svg](assets/omega.svg)
+<hr></hr>
+
+![avatar.png](assets/avatar.png)
+<hr></hr>
+
+![avatar\_square.png](assets/avatar_square.png)
+<hr></hr>

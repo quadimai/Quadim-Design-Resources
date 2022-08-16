@@ -21,11 +21,30 @@ Handlebars.registerHelper("tjoin", (context, options) => {
   return _.join(context, "\t");
 });
 
+Handlebars.registerHelper("hextrim", (context, options) => {
+  return context.substring(1);
+});
+
+Handlebars.registerHelper("getLabel", (context, options) => {
+  return context.label ? context.label : "Not used"
+});
+
+
+Handlebars.registerHelper("eachObj", (context, options) => {
+  const values = Object.values();
+  let ret = "";
+  for (let i = 0, j = values.length; i < j; i++) {
+    ret = ret + options.fn(values[i]);
+  }
+  return ret;
+});
+
 const templates = {
-  txt: "templates/txt.hbs",
+  txt:  "templates/txt.hbs",
   html: "templates/html.hbs",
-  gpl: "templates/gpl.hbs",
-  css: "templates/css.hbs"
+  gpl:  "templates/gpl.hbs",
+  css:  "templates/css.hbs",
+  md:   "templates/README.hbs"
 }
 
 program

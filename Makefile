@@ -12,14 +12,17 @@ install:
 list:
 	@bin/builder --list
 
-exports/quadim.txt: palette.json
-	bin/builder -o txt > $@
+README.md: templates/README.hbs palette.json
+	@bin/builder -o md README.md
 
-exports/quadim.html: palette.json
-	bin/builder -o html > $@
+exports/quadim.txt: templates/txt.hbs palette.json
+	@bin/builder -o txt > $@
 
-exports/quadim.gpl: palette.json
-	bin/builder -o gpl > $@
+exports/quadim.html: templates/html.hbs palette.json
+	@bin/builder -o html > $@
 
-exports/quadim.css: palette.json
-	bin/builder -o css > $@
+exports/quadim.gpl: templates/gpl.hbs palette.json
+	@bin/builder -o gpl > $@
+
+exports/quadim.css: templates/css.hbs palette.json
+	@bin/builder -o css > $@

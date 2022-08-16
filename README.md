@@ -9,7 +9,7 @@ This palette is a **work in progress**, changed are expected, make sure to keep 
 
 | Img                                                    | Name     | Hex     | RGB           | HSL           | Bulma/Buefy                   | CSS              | Score        |
 |--------------------------------------------------------|----------|---------|---------------|---------------|-------------------------------|------------------|--------------|
-| ![Blue](https://place-hold.it/24x24/4280F8?text=+)     | Blue     | #4280F8 | 66, 128, 248  | 220, 93%, 62% | is-blue, is-primary, is-brand | $color--blue     | Solid        |
+| ![Blue](https://place-hold.it/24x24/{{hextrim blue.hex}}?text=+)     | Blue     | #4280F8 | 66, 128, 248  | 220, 93%, 62% | is-blue, is-primary, is-brand | $color--blue     | Solid        |
 | ![Steel](https://place-hold.it/24x24/4B84AA?text=+)    | Steel    | #4B84AA | 75, 132, 170  | 204, 39%, 48% | is-steel                      | $color--steel    |              |
 | ![Green](https://place-hold.it/24x24/07BB7E?text=+)    | Green    | #07BB7E | 7, 187, 126   | 160, 93%, 38% | is-green, is-success          | $color--green    | Apprentice   |
 | ![Orange](https://place-hold.it/24x24/DF9153?text=+)   | Orange   | #DF9153 | 223, 145, 83  | 27, 69%, 60%  | is-warning, is-orange         | $color--orange   | No score     |
