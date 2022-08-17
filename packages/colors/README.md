@@ -12,7 +12,7 @@ copied duplicate of `../palette.json`, and gets copied over on `make package`
 </template>
 
 <script>
-import colors from '@quadimai/colors';
+import colors from '@quadimai/quadim-colors';
 export default {
   name: 'FooBar',
   data() {
