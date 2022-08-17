@@ -38,4 +38,5 @@ exports/quadim.css: templates/css.hbs palette.json
 
 package: $(EXPORTS) palette.json
 	@cp -f palette.json packages/colors/lib/palette.json
+	@bin/builder -o css > packages/colors/css/vars.css
 

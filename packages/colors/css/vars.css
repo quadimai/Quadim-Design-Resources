@@ -1,0 +1,31 @@
+/**
+ * Blue: #4280F8, rgb(66, 128, 248), hsl(220, 93%, 62%)
+ * Steel: #4B84AA, rgb(75, 132, 170), hsl(204, 39%, 48%)
+ * Green: #07BB7E, rgb(7, 187, 126), hsl(160, 93%, 38%)
+ * Orange: #DF9153, rgb(223, 145, 83), hsl(27, 69%, 60%)
+ * Purple: #8C72E5, rgb(140, 114, 229), hsl(254, 69%, 67%)
+ * Cinnamon: #C65B7C, rgb(198, 91, 124), hsl(341, 48%, 57%)
+ * Rose: #F14668, rgb(241, 70, 104), hsl(348, 86%, 61%)
+ * Granite: #525252, rgb(82, 82, 82), hsl(0, 0%, 32%)
+ * Basalt: #636373, rgb(99, 99, 115), hsl(240, 7%, 42%)
+ * Bone: #DBE0E9, rgb(219, 224, 233), hsl(0, 0%, 88%)
+ * Silver: #E0E0E0, rgb(224, 224, 224), hsl(0, 0%, 88%)
+ * Magenta: #C65B7C, rgb(198, 91, 124), hsl(341, 48%, 57%)
+ * Yellow: #FFC857, rgb(255, 200, 87), hsl(40, 100%, 67%)
+ * Cyan: #54DEFD, rgb(84, 222, 253), hsl(191, 98%, 66%)
+ */
+
+$color--blue:     #4280F8;
+$color--steel:    #4B84AA;
+$color--green:    #07BB7E;
+$color--orange:   #DF9153;
+$color--purple:   #8C72E5;
+$color--cinnamon: #C65B7C;
+$color--rose:     #F14668;
+$color--granite:  #525252;
+$color--basalt:   #636373;
+$color--bone:     #DBE0E9;
+$color--silver:   #E0E0E0;
+$color--magenta:  #C65B7C;
+$color--yellow:   #FFC857;
+$color--cyan:     #54DEFD;
