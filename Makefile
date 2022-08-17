@@ -37,5 +37,5 @@ exports/quadim.css: templates/css.hbs palette.json
 	@bin/builder -o css > $@
 
 package: $(EXPORTS) palette.json
-	@cp -f palette.json package/lib/palette.json
+	@cp -f palette.json packages/colors/lib/palette.json
 
