@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lerna:publish": "lerna publish --registry=https://npm.pkg.github.com/"
+    "lerna:publish": "lerna publish --registry=https://npm.pkg.github.com/",
+    "lerna:debug": "lerna publish --registry=https://npm.pkg.github.com/ --force-publish colors"
   },
   "repository": {
     "type": "git",
