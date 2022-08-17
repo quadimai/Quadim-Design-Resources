@@ -1,6 +1,6 @@
 {
   "name": "@quadimai/colors",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Color package to be imported in webapp",
   "author": "Roosta <mail@roosta.sh>",
   "homepage": "https://github.com/quadimai/Quadim-Design-Resources#readme",
@@ -26,5 +26,5 @@
   "bugs": {
     "url": "https://github.com/quadimai/Quadim-Design-Resources/issues"
   },
-  "gitHead": "27cead946285c78bf49a9de08dde30d9381b5234"
+  "gitHead": "ec95039338c584889670590a23ffef7d6af28a41"
 }
