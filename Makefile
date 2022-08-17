@@ -8,12 +8,7 @@ EXPORTS = \
 	README.md
 
 
-default: \
-	exports/quadim.txt \
-	exports/quadim.html \
-	exports/quadim.gpl \
-	exports/quadim.css \
-	README.md
+default: $(EXPORTS)
 
 install:
 	npm install
