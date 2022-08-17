@@ -34,7 +34,7 @@ const templates = {
   txt:  "templates/txt.hbs",
   html: "templates/html.hbs",
   gpl:  "templates/gpl.hbs",
-  css:  "templates/css.hbs",
+  sass: "templates/sass.hbs",
   md:   "templates/README.hbs"
 }
 

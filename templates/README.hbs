@@ -13,7 +13,7 @@ ecosystem.
 This project is generated from the [palette.json](palette.json) file, and a [Makefile](Makefile).
 Update pre-requesits like palette or template, and then call `make`.
 
-To generate a single file, touch & call `make exports/quadim.css`
+To generate a single file, touch & call `make exports/quadim.sass`
 
 ## Package
 
@@ -31,7 +31,7 @@ To use you'd `import colors from "@quadimai/quadim-colors"`, then `colors.blue.h
 
 This palette is a **work in progress**, changed are expected, make sure to keep repo up to date
 
-| Img                                                                  | Name             | Hex             | RGB                  | HSL                  | Bulma/Buefy           | CSS              | Score                     |
+| Img                                                                  | Name             | Hex             | RGB                  | HSL                  | Bulma/Buefy           | Sass              | Score                     |
 |----------------------------------------------------------------------|------------------|-----------------|----------------------|----------------------|-----------------------|------------------|---------------------------|
 {{#each this}}
 | ![{{ this.name }}](https://place-hold.it/24x24/{{ hextrim this.hex }}?text=+)   | {{ this.name }}  | {{ this.hex }}  | {{ join this.rgb }}  | {{ join this.hsl }}  | {{join this.bulma }}  | {{ this.var }}   | {{ getLabel this.score }} |
@@ -40,7 +40,7 @@ This palette is a **work in progress**, changed are expected, make sure to keep 
 ### Exports
 
 - [GIMP/Inkscape (gpl)](exports/quadim.gpl)
-- [CSS](exports/quadim.css)
+- [SASS](exports/quadim.sass)
 - [HTML](exports/quadim.html)
 - [Text file](exports/quadim.txt)
 
