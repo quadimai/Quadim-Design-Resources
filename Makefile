@@ -35,3 +35,6 @@ package: $(EXPORTS) palette.json
 	@cp -f palette.json packages/colors/lib/palette.json
 	@bin/builder -o sass > packages/colors/sass/vars.sass
 
+publish: package palette.json
+	npm run lerna:publish
+
