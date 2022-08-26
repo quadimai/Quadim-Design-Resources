@@ -96,6 +96,9 @@ We'll try to be consistent with spacing, refer to this table for sizes. In Bulma
 
 ## Assets
 
+
+<details>
+<summary><strong><code>Asset links</code></strong></summary>
 ![logo.svg](assets/logo.svg)
 <hr></hr>
 
@@ -110,3 +113,4 @@ We'll try to be consistent with spacing, refer to this table for sizes. In Bulma
 
 ![ugle.svg](assets/ugle.svg)
 <hr></hr>
+</details>
