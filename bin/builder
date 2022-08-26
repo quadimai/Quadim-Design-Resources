@@ -5,6 +5,7 @@
 const fs = require("fs");
 const Handlebars = require("handlebars");
 const palette = require("../palette.json");
+const colorPkg = require("../packages/colors/package.json");
 const pkg = require("../package.json");
 // const template = fs.readFileSync("templates/txt.hbs", "utf8");
 // const comp = Handlebars.compile(template);
@@ -27,6 +28,10 @@ Handlebars.registerHelper("hextrim", (context, options) => {
 
 Handlebars.registerHelper("getLabel", (context, options) => {
   return context.label ? context.label : "Not used"
+});
+
+Handlebars.registerHelper("getColorVersion", (context, options) => {
+  return colorPkg.version;
 });
 
 
