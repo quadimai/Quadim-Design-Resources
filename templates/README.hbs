@@ -4,9 +4,9 @@ Design resources and assets
 Collection of useful design resources and assets for use in the Quadim
 ecosystem.
 
-***IMPORTANT***: This readme along with exports are generated via
+***IMPORTANT***: _This readme along with exports are generated via
 [builder](bin/builder), do not edit directly, instead use
-[template](templates/README.hbs)
+[template](templates/README.hbs)_
 
 ## Building
 
