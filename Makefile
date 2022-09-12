@@ -1,4 +1,4 @@
-.phony: default install list
+.phony: default install list package publish
 
 EXPORTS = \
 	exports/quadim.sass \
