@@ -100,6 +100,8 @@ We'll try to be consistent with spacing, refer to this table for sizes. In Bulma
 <details>
 <summary><strong><code>Asset links</code></strong></summary>
 
+### Main logo
+
 ![logo.svg](assets/logo.svg)
 <hr></hr>
 
@@ -114,6 +116,8 @@ We'll try to be consistent with spacing, refer to this table for sizes. In Bulma
 
 ![ugle.svg](assets/ugle.svg)
 <hr></hr>
+
+### High contrast logo
 
 ![logo_hi.svg](assets/logo_hi.svg)
 <hr></hr>
