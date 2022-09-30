@@ -28,7 +28,7 @@ exports/quadim.html: templates/html.hbs palette.json
 exports/quadim.gpl: templates/gpl.hbs palette.json
 	@bin/builder -o gpl > $@
 
-exports/quadim.scss: templates/sass.hbs palette.json
+exports/quadim.sass: templates/sass.hbs palette.json
 	@bin/builder -o sass > $@
 
 package: $(EXPORTS) palette.json
