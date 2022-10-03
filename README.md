@@ -103,15 +103,19 @@ We'll try to be consistent with spacing, refer to this table for sizes. In Bulma
 ### Main logo + high contrast + glyph
 
 ![logo.svg](assets/logo.svg)
-![logo\_hi.svg](assets/logo_hi.svg)
+![logo_hi.svg](assets/logo_hi.svg)
 ![omega.svg](assets/omega.svg)
+
+<hr></hr>
 
 ### Avatars
 ![avatar.png](assets/avatar.png)
 ![avatar\_square.png](assets/avatar_square.png)
+<hr></hr>
 
 ## Cornelia
 ![cornelia.svg](assets/cornelia.svg)
+![cornelia\_col.svg](assets/cornelia_col.svg)
 <hr></hr>
 
 </details>
