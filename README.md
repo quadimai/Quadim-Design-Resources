@@ -46,7 +46,7 @@ This palette is a **work in progress**, changed are expected, make sure to keep 
 | ![Silver](https://place-hold.it/24x24/E0E0E0?text=+)   | Silver  | #E0E0E0  | 224, 224, 224  | 0, 0%, 88%  | is-silver  | $color--silver   | Not used |
 | ![Magenta](https://place-hold.it/24x24/C65B7C?text=+)   | Magenta  | #C65B7C  | 198, 91, 124  | 341, 48%, 57%  | is-magenta  | $color--magenta   | Craftsperson |
 | ![Yellow](https://place-hold.it/24x24/FFC857?text=+)   | Yellow  | #FFC857  | 255, 200, 87  | 40, 100%, 67%  | is-yellow  | $color--yellow   | Novice |
-| ![Cyan](https://place-hold.it/24x24/54DEFD?text=+)   | Cyan  | #54DEFD  | 84, 222, 253  | 191, 98%, 66%  | is-cyan  | $color--cyan   | Not used |
+| ![Cyan](https://place-hold.it/24x24/02C6F2?text=+)   | Cyan  | #02C6F2  | 2, 198, 242  | 191, 98%, 48%  | is-cyan  | $color--cyan   | Not used |
 
 ### Exports
 
