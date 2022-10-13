@@ -11,4 +11,4 @@
 #E0E0E0 Silver
 #C65B7C Magenta
 #FFC857 Yellow
-#02C6F2 Cyan
+#02A5CA Cyan
