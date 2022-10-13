@@ -20,7 +20,7 @@ To generate a single file, touch & call `make exports/quadim.sass`
 The colors object is exposed in package:
 
 ```
-"@quadimai/quadim-colors": "1.1.3",
+"@quadimai/quadim-colors": "1.1.4",
 ```
 
 To build a new version you need an access token, @roosta for credentials
