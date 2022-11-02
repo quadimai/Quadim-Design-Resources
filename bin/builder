@@ -2,6 +2,7 @@
 
 "use strict";
 
+const ps = require("process");
 const fs = require("fs");
 const Handlebars = require("handlebars");
 const palette = require("../palette.json");
@@ -14,23 +15,23 @@ const _ = require('lodash');
 // console.log(comp(palette));
 // console.log(template)
 
-Handlebars.registerHelper("join", (context, options) => {
+Handlebars.registerHelper("join", (context) => {
   return _.join(context, ", ");
 });
 
-Handlebars.registerHelper("tjoin", (context, options) => {
+Handlebars.registerHelper("tjoin", (context) => {
   return _.join(context, "\t");
 });
 
-Handlebars.registerHelper("hextrim", (context, options) => {
+Handlebars.registerHelper("hextrim", (context) => {
   return context.substring(1);
 });
 
-Handlebars.registerHelper("getLabel", (context, options) => {
+Handlebars.registerHelper("getLabel", (context) => {
   return context.label ? context.label : "Not used"
 });
 
-Handlebars.registerHelper("getColorVersion", (context, options) => {
+Handlebars.registerHelper("getColorVersion", () => {
   return colorPkg.version;
 });
 
@@ -47,7 +48,7 @@ program
   .version(pkg.version)
   .option('-l, --list', 'List available formats')
   .option('-o, --output [format]', 'Output format')
-  .parse(process.argv);
+  .parse(ps.argv);
 
 const opts = program.opts();
 
@@ -55,21 +56,21 @@ if (opts.list) {
   Object.keys(templates).forEach(key => {
     console.log(key);
   });
-  process.exit();
+  ps.exit();
 }
 
 if (!opts.output) {
   console.log('Must declare an output format');
-  process.exit(1);
+  ps.exit(1);
 }
 
 if (!Object.prototype.hasOwnProperty.call(templates, opts.output)) {
   console.log('Invalid output format: ', opts.output);
-  process.exit(1);
+  ps.exit(1);
 }
 
 const file = fs.readFileSync(templates[opts.output], "utf8");
 const template = Handlebars.compile(file);
-process.stdout.write(template(palette));
-process.exit();
+ps.stdout.write(template(palette));
+ps.exit();
 

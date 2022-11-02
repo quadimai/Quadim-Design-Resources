@@ -23,5 +23,9 @@
     "handlebars": "4.7.7",
     "lerna": "6.0.0",
     "lodash": "4.17.21"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "eslint": "8.26.0"
   }
 }
