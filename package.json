@@ -21,7 +21,7 @@
   "dependencies": {
     "commander": "10.0.1",
     "handlebars": "4.7.7",
-    "lerna": "6.6.1",
+    "lerna": "6.6.2",
     "lodash": "4.17.21"
   },
   "devDependencies": {
