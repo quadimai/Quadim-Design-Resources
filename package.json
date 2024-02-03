@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/quadimai/Quadim-Design-Resources#readme",
   "dependencies": {
-    "commander": "10.0.1",
+    "commander": "12.0.0",
     "handlebars": "4.7.7",
     "lerna": "7.0.1",
     "lodash": "4.17.21"
