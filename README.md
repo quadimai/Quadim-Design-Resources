@@ -119,4 +119,8 @@ We'll try to be consistent with spacing, refer to this table for sizes. In Bulma
 ![cornelia\_col.svg](assets/cornelia_faq.svg)
 <hr></hr>
 
+## Copernicus
+![copernicus.svg](assets/copernicus.svg)
+<hr></hr>
+
 </details>
