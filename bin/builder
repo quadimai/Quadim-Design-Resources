@@ -10,7 +10,7 @@ const colorPkg = require("../packages/colors/package.json");
 const pkg = require("../package.json");
 // const template = fs.readFileSync("templates/txt.hbs", "utf8");
 // const comp = Handlebars.compile(template);
-const program = require("commander");
+const { program } = require('commander');
 const _ = require('lodash');
 // console.log(comp(palette));
 // console.log(template)
